@@ -1,0 +1,679 @@
+html{
+    width: auto;
+}
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+  }
+
+.flexbox-caixa-nav-bar{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: auto;
+    align-self: stretch;
+}
+
+.fb-item{
+    width: auto;
+}
+
+.item-1{
+    width: 148px;
+    height: 27px;
+    /* Auto layout */
+    display: flex;
+    gap: 8px;
+    /* Inside auto layout */
+    flex: none;
+}
+.item-2{
+    height: 32px;
+}
+.item-3{
+    width: 207;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-nav-bar{
+    width: 100%;
+}
+
+nav li{
+    display: inline;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 320px;
+    height: 32px;
+    
+}
+
+nav a{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 20px;
+
+    color: var(--text-color);
+
+    text-decoration: none;
+    
+}
+
+.botaoEntrar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+    border-style: none;
+    border-color: none;
+
+    width: 83px;
+    height: 44px;
+
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.botaoEntrar:hover{
+    cursor: pointer;
+    background: #abbbdb;
+
+}
+.botaoCadastrar{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 8px;
+
+    width: 112px;
+    height: 44px;
+
+    background: #8E2424;
+    border: 1px solid #8E2424;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+.botaoCadastrar:hover{
+    cursor: pointer;
+    background: #e97d7d;
+}
+
+ /*------- C A B E Ç A L H O ------ */
+ .cabecalho{
+    /* Cabeçalho */
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 0px;
+    gap: 24px;
+    width: 100%;
+    height: 407;
+    background: #ffffff;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.about-us-txt, .sb-nos{
+    /* Subheading */
+    width: 78px;
+    height: 24px;
+    /* Text md/Semibold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-color);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.question-txt{
+    /* Heading */
+
+    width: 603px;
+    height: 60px;
+
+    /* Display lg/Semibold */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.02em;
+
+    /* Gray/900 */
+
+    color: #101828;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.resposta-txt{
+
+    width: 791px;
+    height: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #667085;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.metricas{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items:center;
+    align-content: space-around;
+    padding: 0px 0px 96px;
+    gap: 40px; 
+    margin: 0;
+}
+
+.metricas__metrica{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+}
+#metrica__numero{
+    width: 260px;
+    height: 72px;
+    /* Display xl/Semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    color: var(--main-color);
+}
+
+#metrica__nome{
+    /* Text */
+    width: 260px;
+    height: 28px;
+    /* Text lg/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+#metrica__descricao{
+    width: 260px;
+    height: 72px;
+    /* Text md/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+
+
+.vagas{
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-talentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+#texto1{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    width: 125px;
+    height: 28px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Text sm/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    color: #8E2424;
+}
+#texto2{
+    /* Heading */
+    width: auto;
+    height:auto;
+    /* Display md/Semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    /* Gray/900 */
+    color: #101828;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+#texto3{
+        
+    /* Text xl/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray/500 */
+    color: #667085;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.fotos-func{
+    width: 1216px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.vaga{
+    display: block;
+    gap:24px;
+}
+
+.nome-geral-vaga{
+    width: 768px;
+    height: 30px;
+    /* Text xl/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    /* Gray/900 */
+    color: #101828;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.bloco-vaga{
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    gap: 24px;
+    width: 768px;
+    height: 136px;
+    /* Base/White */
+    background: #FFFFFF;
+    /* Gray/200 */
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-left: 285px;
+}
+.titulo-vaga{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-top: 20px;
+    gap: 8px;   
+    width: 720px;
+    height: 28px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    /* Text lg/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    /* Gray/900 */
+    color: #101828;
+}
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 720px;
+    height: 24px;
+    /* Inside auto layout */
+   margin-left: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/500 */
+    color: #667085;
+}
+
+.depoimentos{
+    /* Content */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    margin: auto;
+    gap: 32px;
+    width: 1100px;
+    height: auto;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+
+    /* Text sm/Semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    color: #8E2424;
+}
+
+.dep-texto{
+    /* Display md/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* or 122% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+#nome-dev{
+    /* Text md/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray/900 */
+    color: #101828;
+    margin-top: 5px;
+}
+
+#func-dev{
+    /* Text sm/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    /* Gray/500 */
+    color: #667085;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    margin-top: 96px;
+    gap: 35px;
+    width: auto;
+    height: auto;
+    /* Gray/50 */
+    background: #F9FAFB;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rodape__texto1{
+    /* Display md/Semibold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    /* Gray/900 */
+    color: #101828;
+}
+
+.rodape__texto2{
+    /* Text xl/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* Gray/500 */
+    color: #667085;
+}
+
+.formulario{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    gap: 16px;
+    width: 492px;
+    height: 48px;
+}
+
+#campo-email{
+    /* Auto layout */
+    width: 330px;
+    height: 46px;
+    /* Text md/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/500 */
+    color: #667085;
+    /* Input */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+
+    width: 360px;
+    height: 46px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    /* Shadow/xs */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+ 
+}
+
+#botao-cadastrar{
+    /* _Button base */
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    width: 116px;
+    height: 48px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    /* Text md/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Base/White */
+    color: #FFFFFF;
+}
+
+#botao-cadastrar:hover{
+    background: #e97d7d;
+    cursor: pointer;
+}
+
+.copy__texto{
+    /* Text md/Normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    /* Gray/400 */
+    color: #98A2B3;
+}
